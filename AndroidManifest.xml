@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bahcem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+     	<uses-permission android:name="android.permission.INTERNET" />
+		<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+		<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+   <application
+      
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name= "com.example.bahcem.UsergridApplication" >
+        
+       
+        
+        <activity 
+           
+            android:name="com.example.bahcem.AnaEkran" 
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+    		<activity android:name="com.example.bahcem.MeyveSebze"/>
+            
+            <activity  android:name="com.example.bahcem.Arama" />
+            
+            <activity android:name="com.example.bahcem.Ayarlar" />
+            
+            <activity android:name="com.example.bahcem.Bitki" />
+            
+            <activity android:name="com.example.bahcem.BitkiDetay" />
+            
+            <activity android:name="com.example.bahcem.BitkiUyari" />
+            
+            <activity android:name="com.example.bahcem.Listem" />
+            
+            <activity android:name="com.example.bahcem.SusBitkileri" />
+            
+           
+    </application>
+
+   
+   
+</manifest>
+
+      

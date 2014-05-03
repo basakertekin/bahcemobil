@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplann" >
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/aslanagzi"
+        android:scaleType="fitXY"
+        android:src="@drawable/aslanagzi"
+        android:text="Aslanağzı" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_below="@+id/imageButton2"
+        android:background="@drawable/sardunya"
+        android:scaleType="fitXY"
+        android:src="@drawable/cicek_sardunyalar_"
+        android:text="Sardunya" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_below="@+id/imageButton1"
+        android:background="@drawable/camguzeli"
+        android:scaleType="fitXY"
+        android:src="@drawable/camguzeli"
+        android:text="Camgüzeli" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_below="@+id/imageButton3"
+        android:background="@drawable/lilyum"
+        android:scaleType="fitXY"
+        android:src="@drawable/lilyum"
+        android:text="Lilyum" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton1"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:background="@drawable/tahta1"
+        android:text="@string/aslanagzi" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignTop="@+id/imageButton2"
+        android:background="@drawable/tahta2"
+        android:text="@string/camguzeli" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignTop="@+id/imageButton3"
+        android:background="@drawable/tahta3"
+        android:text="@string/sardunya" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_toRightOf="@+id/imageButton4"
+        android:background="@drawable/tahta4"
+        android:text="@string/lilyum" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true" />
+
+    <CheckBox
+        android:id="@+id/CheckBox01"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true" />
+
+    <CheckBox
+        android:id="@+id/CheckBox02"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentRight="true" />
+
+    <CheckBox
+        android:id="@+id/CheckBox03"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignParentRight="true" />
+
+    <ImageButton
+        android:id="@+id/ImageButton01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@style/AppBaseTheme"
+        android:src="@android:drawable/ic_menu_sort_by_size" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageButton01"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@style/AppBaseTheme"
+        android:src="@android:drawable/ic_search_category_default" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton5"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@style/AppTheme"
+        android:text="@string/ekle" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">bahcem</string>
+	<string name="sus_bitkileri">Süs Bitkileri</string>
+	<string name="meyve_sebze">Meyveler ve Sebzeler</string>
+	<string name="sardunya">Sardunya</string>
+	<string name="camguzeli">Camgüzeli</string>
+	<string name="aslanagzi">Aslanağzı</string>
+	<string name="lilyum">Lilyum</string>
+	<string name="ekle">Ekle</string>
+	<string name="ekle1">Ekle</string>
+	<string name="yinede_ekle">Yinede Ekle</string>
+	<string name="sicaklik1">Sıcaklık:</string>
+	<string name="tarih_disi1">Bu bitki için uygun ekim aralıklarında değilsiniz.</string>
+	<string name="toprak_tipi1">Kumlu/Hafif Killi</string>
+	<string name="derece1">20 25 Derece</string>
+	<string name="hasat_zamani1">Hasat Zamanı:</string>
+	<string name="ay1">Mart-Nisan</string>
+	<string name="sulama_araligi1">4 günde bir</string>
+	<string name="hasat_gunu1">50 gün sonra</string>
+	<string name="sulama1">Sulama Sıklığı:</string>
+	<string name="ekim1">Ekim Zamanı:</string>
+	<string name="toprak1">Toprak:</string>
+	
+	<string name="sicaklik">Sıcaklık:</string>
+	<string name="tarih_disi">Bu bitki için uygun ekim aralıklarında değilsiniz.</string>
+	<string name="toprak_tipi">Kumlu/Hafif Killi</string>
+	<string name="derece">20 25 Derece</string>
+	<string name="hasat_zamani">Hasat Zamanı:</string>
+	<string name="ay">Mart-Nisan</string>
+	<string name="sulama_araligi">4 günde bir</string>
+	<string name="hasat_gunu">50 gün sonra</string>
+	<string name="sulama">Sulama Sıklığı:</string>
+	<string name="ekim">Ekim Zamanı:</string>
+	<string name="toprak">Toprak:</string>
+	<string name="ekle2">Ekle</string>
+	<string name="listem">Listem</string>
+	<string name="tumunu_sec">Tümünü seç</string>
+	<string name="kaldir">Kaldır</string>
+	
+</resources>
+
+
